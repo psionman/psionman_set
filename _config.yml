@@ -23,6 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This series of articles and lessons was designed to help me in my journey to programming competence. I hope others find it useful too!
 baseurl: "/psionman_set" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
