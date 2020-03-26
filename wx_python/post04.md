@@ -174,4 +174,4 @@ In the next post We will investigate the *StaticBox* which give us the
 ability to group graphically related controls. Then using a *checkbox*
 we will see how the value of a control can be retrieved at run-time.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post03.md%}) [next]({{ site.baseurl }}{% link wx_python/post03.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post03.md%}) [next]({{ site.baseurl }}{% link wx_python/post05.md%})

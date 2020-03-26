@@ -30,9 +30,9 @@ class MainFrame(wx.Frame):
 
 As there will (usually) be many widgets used in the application, it
 makes sense to abtract the *panel* into its own class. This has the
-advantage that we will separate into its own class all of the code for
-the creation, display, and events relating to its widgets. This will
-reduce the complexity of code in the *frame* and deliver separation of
+advantage that we will confine all of the code for
+the creation, display, and events relating to its widgets into a separate class and will
+reduce the complexity of code in the *frame*, Thus delivering separation of
 concerns: the user experience from other processing.
 
 To achieve this, I will create a *panel* class that inherits wx.Panel

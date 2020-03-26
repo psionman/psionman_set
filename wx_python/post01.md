@@ -2,6 +2,8 @@
 layout: "page"
 ---
 
+## WxPython from Scratch
+
 ### Getting started: the frame
 
 Let's define a few terms used by wxPython:
