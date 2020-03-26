@@ -15,7 +15,7 @@ organising the code. The application specific code behind the GUI is
 relatively straightforward and I will not take up space on describing
 that.
 
-![](/psionman_set/wx_python/images/booking_01.png)
+![]({{ site.baseurl }}/wx_python/images/booking_01.png)
 
 Fig 1. A frame for hotel bookings
 
@@ -26,7 +26,7 @@ the widgets are to be layed out. In Fig 2., I have divided the screen
 into regions do demonstrate how a GridBagSizer could be used to create
 the gross pattern.
 
-![](/psionman_set/wx_python/images/booking_02.png)
+![]({{ site.baseurl }}/wx_python/images/booking_02.png)
 
 Fig 2. Boundaries for GridBagSizer
 

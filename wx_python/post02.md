@@ -93,7 +93,7 @@ lbl_hello = wx.StaticText(parent=self, label="Hello")
 This produces a label which the system places in the top left corner of
 the frame.
 
-![](/psionman_set/wx_python/images/frame_03.png)
+![]({{ site.baseurl }}/wx_python/images/frame_03.png)
 
 Fig 1. A frame with a label
 
@@ -141,7 +141,7 @@ The
 argument tells the system to place the *border* of 10 pixels on the top,
 bottom, left and right of the widget. The frame has now changed subtly:
 
-![](/psionman_set/wx_python/images/frame_04.png)
+![]({{ site.baseurl }}/wx_python/images/frame_04.png)
 
 Fig 2. A label with border
 
@@ -203,7 +203,7 @@ if __name__ == "__main__":
 
 At this stage the application produces:
 
-![](/psionman_set/wx_python/images/frame_05.png)
+![]({{ site.baseurl }}/wx_python/images/frame_05.png)
 
 Fig 3. Frame fitted to widgets
 

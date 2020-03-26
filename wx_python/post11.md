@@ -13,7 +13,7 @@ displaying data in a list format.
 
 The **wx.adv** module has a *DatePicker* class.
 
-![](/psionman_set/wx_python/images/datepicker.png)
+![]({{ site.baseurl }}/wx_python/images/datepicker.png)
 
 Fig 1. A datepicker
 

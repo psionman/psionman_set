@@ -59,7 +59,7 @@ This way we do not have to create a list of radioButtons or even the
 buttons themselves. Note that the flag "wx.RA\_SPECIFY\_ROWS", creates a
 column of buttons. Both sets of code create the same output.
 
-![](/psionman_set/wx_python/images/radiobuttons_01.png)
+![]({{ site.baseurl }}/wx_python/images/radiobuttons_01.png)
 
 Fig 1. RadioButtons
 
@@ -96,7 +96,7 @@ self.SetSizer(sizer)
 
 This creates:
 
-![](/psionman_set/wx_python/images/gridbagsizer_01.png)
+![]({{ site.baseurl }}/wx_python/images/gridbagsizer_01.png)
 
 Fig 2. A GridBagSizer
 

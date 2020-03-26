@@ -24,7 +24,7 @@ txt_name = wx.TextCtrl(parent=self)
 This makes a TextCtrl of default size (enough to enter six "m"s and high
 enough for one line of text).
 
-![](/psionman_set/wx_python/images/textbox_01.png)
+![]({{ site.baseurl }}/wx_python/images/textbox_01.png)
 
 Fig 1. A TextCtrl
 
@@ -54,7 +54,7 @@ to define the button appearance; it applies the text "Cancel" and, on my
 chosen theme, it also places an icon on the button (it might appear
 differently on your system).
 
-![](/psionman_set/wx_python/images/button_01.png)
+![]({{ site.baseurl }}/wx_python/images/button_01.png)
 
 Fig 2. A button
 
@@ -103,7 +103,7 @@ within the sizer which has expanded to accommodate the widest element.
 (Remember that the code in the frame ensures that the frame always
 expands to fit the contents of the panel.)
 
-![](/psionman_set/wx_python/images/vertical_01.png)
+![]({{ site.baseurl }}/wx_python/images/vertical_01.png)
 
 Fig 3. Three widgets in a vertical sizer
 
