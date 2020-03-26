@@ -15,7 +15,7 @@ useful for creating a logical grouping of widgets (see Figure 1.). The
 StaticBoxSizer is a special case of a BoxSizer designed to fit within
 the StaticBox.
 
-![](/wx_python/images/staticbox_02.png)
+![](/psionman_set/wx_python/images/staticbox_02.png)
 
 Fig 1. StaticBox with check boxes
 
@@ -47,7 +47,7 @@ class MainPanel(wx.Panel):
 
 we get an empty StaticTextBox with its label:
 
-![](/wx_python/images/staticbox_01.png)
+![](/psionman_set/wx_python/images/staticbox_01.png)
 
 Fig 2. Empty StaticBox
 

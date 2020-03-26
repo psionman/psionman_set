@@ -20,7 +20,7 @@ sizer = wx.BoxSizer(orient=wx.HORIZONTAL)
 This does not look quite right as there is no space above the textbox
 and button:
 
-![](/wx_python/images/horizontal_01.png)
+![](/psionman_set/wx_python/images/horizontal_01.png)
 
 Fig 1. A first attempt at horizontal alignmment
 
@@ -44,7 +44,7 @@ sizer.Add(cmd_quit, flag=wx.TOP|wx.RIGHT|wx.BOTTOM, border=10)
 
 This now gives the desired result:
 
-![](/wx_python/images/horizontal_02.png)
+![](/psionman_set/wx_python/images/horizontal_02.png)
 
 Fig 2. Horizontal alignmment with correct spacing
 
@@ -75,7 +75,7 @@ border only to separate the label from the text box). Then this sizer
 and the button have been placed in the vertical sizer (withh appropriate
 borders).
 
-![](/wx_python/images/vertical_02.png)
+![](/psionman_set/wx_python/images/vertical_02.png)
 
 Fig 2. Horizontal sizer within a vertical sizer
 
@@ -95,7 +95,7 @@ vertical_sizer.Add(cmd_quit, flag=wx.BOTTOM|wx.ALIGN_CENTER, border=10)
 
 Giving:
 
-![](/wx_python/images/vertical_03.png)
+![](/psionman_set/wx_python/images/vertical_03.png)
 
 Fig 3. Button centred horizontally
 
@@ -115,7 +115,7 @@ vertical_sizer.Add(cmd_quit, flag=wx.RIGHT|wx.BOTTOM|wx.ALIGN_RIGHT, border=10)
 
 This gives the desired result:
 
-![](/wx_python/images/vertical_04.png)
+![](/psionman_set/wx_python/images/vertical_04.png)
 
 Fig 4. Button right aligned
 
@@ -140,7 +140,7 @@ vertical_sizer.Add((250, 0))
 Note that the *size* is contained in parentheses. This is because
 wxPython expects to see a *size* tuple here (width, height).
 
-![](/wx_python/images/vertical_05.png)
+![](/psionman_set/wx_python/images/vertical_05.png)
 
 Fig 5. Frame with sizer
 

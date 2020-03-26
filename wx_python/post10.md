@@ -72,7 +72,7 @@ This is a *MessageDialog*. Note that:
 3.  the dialog returns a value which we can test before deciding what
     further action to take.
 
-![](/wx_python/images/warning_dialog.png)
+![](/psionman_set/wx_python/images/warning_dialog.png)
 
 Fig 1. A warning dialog
 
@@ -86,7 +86,7 @@ dialog](https://wxpython.org/Phoenix/docs/html/wx.FileDialog.html) uses
 a similar structure, but performs a more specific task. It is used when
 we want the user to select a file from the system.
 
-![](/wx_python/images/file_dialog.png)
+![](/psionman_set/wx_python/images/file_dialog.png)
 
 Fig 2. A file open dialog
 

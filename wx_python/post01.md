@@ -29,7 +29,7 @@ Let's define a few terms used by wxPython:
     sizers and each panel or frame can have at most one designated
     sizer.
 
-![](/wx_python/images/raw_frame.png)
+![](/psionman_set/wx_python/images/raw_frame.png)
 
 Fig 1. A basic frame
 

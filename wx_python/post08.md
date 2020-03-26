@@ -16,7 +16,7 @@ children of the frame.
 To start with, let us consider the terminology used in the construction
 and use of a menu.
 
-![](/wx_python/images/menu_00.png)
+![](/psionman_set/wx_python/images/menu_00.png)
 
 Fig 1. A simple menu bar
 
@@ -94,7 +94,7 @@ class FileMenu(wx.Menu):
 Now the file menu appears on the frame, but still, it does nothing. We
 need to add menu items:
 
-![](/wx_python/images/menu_01.png)
+![](/psionman_set/wx_python/images/menu_01.png)
 
 Fig 2. A Frame with menu bar
 
@@ -130,7 +130,7 @@ Note that here, I have not only created the menu item, but bound it to a
 method and appended it to the menu itself using its **Append** method.
 When the menu is clicked it now appears as:
 
-![](/wx_python/images/menu_02.png)
+![](/psionman_set/wx_python/images/menu_02.png)
 
 Fig 3. A menu with a menu item
 
@@ -155,7 +155,7 @@ To set the text, use the **SetStatusText** method:
 self.status_bar.SetStatusText('This is the status bar')
 ```
 
-![](/wx_python/images/statusbar_01.png)
+![](/psionman_set/wx_python/images/statusbar_01.png)
 
 Fig 4. A frame with a status bar
 

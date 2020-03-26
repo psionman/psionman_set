@@ -10,7 +10,7 @@ A [ListBox](https://wxpython.org/Phoenix/docs/html/wx.ListBox.html) is a
 widget that presents a list of strings and allows the user to select one
 or more items.
 
-![](/wx_python/images/listbox_01.png)
+![](/psionman_set/wx_python/images/listbox_01.png)
 
 Fig 1. A ListBox
 
@@ -53,7 +53,7 @@ textbox with an arrow on the right hand side. When clicked, the list
 appears. It will drop down if there is room on the screen (it will
 extend beyond the frame), otherwise it will pop upwards.
 
-![](/wx_python/images/combobox_01.png)
+![](/psionman_set/wx_python/images/combobox_01.png)
 
 Fig 2. A ComboBox
 
@@ -98,7 +98,7 @@ main_sizer.Add(name_sizer, flag=wx.ALL, border=10)
 main_sizer.Add(button_sizer, flag=wx.LEFT|wx.RIGHT|wx.BOTTOM border=10)
 ```
 
-![](/wx_python/images/buttons_01.png)
+![](/psionman_set/wx_python/images/buttons_01.png)
 
 Fig 3. A frame with buttons
 
@@ -128,7 +128,7 @@ main_sizer.Add(name_sizer, flag=wx.ALL, border=10)
 main_sizer.Add(button_sizer, flag=wx.LEFT|wx.RIGHT|wx.BOTTOM|wx.EXPAND, border=10)
 ```
 
-![](/wx_python/images/buttons_02.png)
+![](/psionman_set/wx_python/images/buttons_02.png)
 
 Fig 4. Aligned buttons
 
