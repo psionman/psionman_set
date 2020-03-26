@@ -31,7 +31,7 @@ Let's define a few terms used by wxPython:
 
 ![](/psionman_set/wx_python/images/raw_frame.png)
 
-Fig 1. A basic frame
+Fig 1. A basic frameA
 
 Figure 1. shows a wxPython frame with a title bar. It has no menu bar,
 tool bar, status bar, nor any widgets. (It is created by wxPython using
