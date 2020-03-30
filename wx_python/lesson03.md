@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### Text box, button and events
 
 In the last lesson we saw how to abstract a panel, created a label and

@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### Dialogs
 
 In previous lessonings we have seen how to construct a GUI application by

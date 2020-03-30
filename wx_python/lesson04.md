@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### Using BoxSizers to create complex layouts
 
 In the last lesson we saw how to create multiple widgets and how to add

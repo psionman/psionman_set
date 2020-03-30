@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### The ListBox, ComboBox and spacers
 
 #### The ListBox

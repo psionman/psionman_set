@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### Adding a panel and a label
 
 We saw in the last lesson how to create and display a frame in wxPython.

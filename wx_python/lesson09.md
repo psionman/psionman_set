@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### Building a larger application
 
 So far, I have concentrated on creating one or two widgets and placing

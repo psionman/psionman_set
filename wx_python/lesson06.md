@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### RadioButtons and the GridBagSizer
 
 In this lesson we will ivestigate two ways to create and organise a set of

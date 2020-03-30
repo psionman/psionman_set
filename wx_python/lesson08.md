@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### A menu bar and status bar
 
 So far, all of the widgets that we have built and used have been placed

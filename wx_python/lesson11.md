@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### The Date Picker control and the ObjectListView
 
 In the last lesson I described the use of two of the wxPython dialogs. In

@@ -1,7 +1,8 @@
 ---
 layout: "page"
+title: ""
 ---
-## WxPython from Scratch
+
 ### Check-boxes, getting and setting values, abstracting panels
 
 In previous lessonings we have seen how to create various widgets and how
