@@ -73,7 +73,7 @@ The general principle in wxPython is that a sizer will shrink (or grow)
 to fit the widgets that it contains. But there are occasions when we
 need to commandeer space on the frame or we require the sizer to be a
 bit more flexible. Spacers can help and we have already seen a [crude
-way](post04.html#spacers) of forcing the frame to accomodate more space.
+way](lesson04.html#spacers) of forcing the frame to accomodate more space.
 Here we will use a more subtle method to achieve a common requirement.
 
 In the following frame the **Quit** button is placed in a horizontal
@@ -134,9 +134,9 @@ Fig 4. Aligned buttons
 
 #### Summary
 
-In this post we have seen how to implement two more widgets, the list
+In this lesson we have seen how to implement two more widgets, the list
 box and combobox. I have also discussed a more subtle use of sizers to
-improve the placing of widgets on the frame. In the next post I
+improve the placing of widgets on the frame. In the next lesson I
 demonstrate how to create a menu bar and a status bar.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post06.md%}) [next]({{ site.baseurl }}{% link wx_python/post08.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson06.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson08.md%})

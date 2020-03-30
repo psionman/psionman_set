@@ -4,7 +4,7 @@ layout: "page"
 ## WxPython from Scratch
 ### Using BoxSizers to create complex layouts
 
-In the last post we saw how to create multiple widgets and how to add
+In the last lesson we saw how to create multiple widgets and how to add
 them to a sizer. In that case it was a vertical BoxSizer and all of the
 widgets appeared one above the other.
 
@@ -146,7 +146,7 @@ Fig 5. Frame with sizer
 
 #### Summary
 
-In this post we have seen how to use horizontal and vertical BoxSizers.
+In this lesson we have seen how to use horizontal and vertical BoxSizers.
 We have placed one sizer within another and considered how we might
 adjust borders to keep a consistent look. Finally we have used some
 flags to adjust the alignment of widgets with sizers. The code for the
@@ -170,8 +170,8 @@ class MainPanel(wx.Panel):
         self.SetSizer(vertical_sizer)
 ```
 
-In the next post We will investigate the *StaticBox* which give us the
+In the next lesson We will investigate the *StaticBox* which give us the
 ability to group graphically related controls. Then using a *checkbox*
 we will see how the value of a control can be retrieved at run-time.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post03.md%}) [next]({{ site.baseurl }}{% link wx_python/post05.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson03.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson05.md%})

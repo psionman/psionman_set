@@ -5,7 +5,7 @@ layout: "page"
 ### Building a larger application
 
 So far, I have concentrated on creating one or two widgets and placing
-them in a sizer on the panel. In this post I will look at the challenges
+them in a sizer on the panel. In this lesson I will look at the challenges
 involved in implementing a more complex layout and structuring the code
 for maintainability, readability and reuseability.
 
@@ -56,7 +56,7 @@ span two columns in the main *GridBagSizer*.
 #### The code
 
 I will build up the code for the application in incremental steps and
-prsent the full code for the application at then of the post.
+prsent the full code for the application at then of the lesson.
 
 ### The frame
 
@@ -224,15 +224,15 @@ class MainPanel(wx.Panel):
         return sizer
 ```
 
-Note that here, for convenience in this posting, I have defined the
+Note that here, for convenience in this lessoning, I have defined the
 *extras\_list* in the **MainPanel**. The coding in the **ExtrasPanel**
 is very similar that used when we covered
-[checkboxes](post05.html#the-checkbox).
+[checkboxes](lesson05.html#the-checkbox).
 
 ### The room sizer
 
 This sizer contains a *RadioBox*. The code for this was [covered
-earlier](post06.html#the-radiobutton):
+earlier](lesson06.html#the-radiobutton):
 
 ``` python
 class MainPanel(wx.Panel):
@@ -264,7 +264,7 @@ and second column.
 ### The city sizer
 
 The code to create a *listbox* has already been
-[seen](post07.html#the-listbox). I have created a sizer to contain the
+[seen](lesson07.html#the-listbox). I have created a sizer to contain the
 cities listbox:
 
 ``` python
@@ -288,7 +288,7 @@ class MainPanel(wx.Panel):
 ### The date sizer
 
 In this application, the date is selected by three
-[comboboxes](post07.html#the-combobox) placed in a horizontal
+[comboboxes](lesson07.html#the-combobox) placed in a horizontal
 *BoxSizer*:
 
 ``` python
@@ -319,7 +319,7 @@ class MainPanel(wx.Panel):
 ### The button sizer
 
 The last widgets that we need to place on the panel are the *buttons*.
-Following the [spacer technique](post07.html#using-spacers) for aligning
+Following the [spacer technique](lesson07.html#using-spacers) for aligning
 the buttons demonstrated earlier:
 
 ``` python
@@ -395,14 +395,14 @@ class MainPanel(wx.Panel):
 
 #### Summary
 
-In this post I have used many of the elements covered in earlier posts
+In this lesson I have used many of the elements covered in earlier lessons
 to create a larger and more complex application. I have paid attention
 to structuring the code to optimise the three pillars of sound
 programming in Python: readability, maintainability and reusability. The
 complete code for the application follows
 ([booking.py](snippets/booking.py)).
 
-In the next post I will cover dialogs.
+In the next lesson I will cover dialogs.
 
 ``` python
 from datetime import datetime
@@ -599,4 +599,4 @@ if __name__ == "__main__":
     screen_app.MainLoop()
 ```
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post08.md%}) [next]({{ site.baseurl }}{% link wx_python/post10.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson08.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson10.md%})

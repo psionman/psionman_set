@@ -4,11 +4,11 @@ layout: "page"
 ## WxPython from Scratch
 ### Dialogs
 
-In previous postings we have seen how to construct a GUI application by
+In previous lessonings we have seen how to construct a GUI application by
 creating its individual elements. A *Dialog* is a pre-fabricated screen
 that can be implemented within a GUI application.
 
-In this posting we will see, firstly, how to use a simple pop-up dialog,
+In this lessoning we will see, firstly, how to use a simple pop-up dialog,
 and then look in some more detail at a more powerful dialog: the *file
 open dialog*.
 
@@ -21,7 +21,7 @@ to close the frame. (I should say that it is considered good practise
 not to use this sort of dialog as they often annoy users ... "Are you
 sure?" ... "Are you really sure?" ... "Are you absolutely sure?" ...)
 
-I will use the [basic frame](post01.html#summary) as a starting point,
+I will use the [basic frame](lesson01.html#summary) as a starting point,
 and bind the frame's close event to a method:
 
 ``` python
@@ -205,9 +205,9 @@ using the style **FD\_SAVE**.
 
 #### Summary
 
-In this post I have described the use of two of the wxPython dialogs.
-The next post will deal with two important controls: the Date Picker
+In this lesson I have described the use of two of the wxPython dialogs.
+The next lesson will deal with two important controls: the Date Picker
 control, used for selecting a date, and the ObjectListView used for
 displaying data in a list format.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post09.md%}) [next]({{ site.baseurl }}{% link wx_python/post11.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson09.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson11.md%})

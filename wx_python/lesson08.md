@@ -140,7 +140,7 @@ the above steps ([menu.py](snippets/menu.py)).
 #### A Status bar
 
 In order to demonstrate the use of a status bar I will start with the
-same basic frame used at the top of this post. As the status bar is
+same basic frame used at the top of this lesson. As the status bar is
 closely bound to the frame and its implementation is quite simple I will
 not be abstracting it to a separate class. To create it, simply use the
 line:
@@ -178,10 +178,10 @@ if __name__ == "__main__":
 
 #### Summary
 
-In this post I have described the use of two widgets that are linked
+In this lesson I have described the use of two widgets that are linked
 directly to the frame: the menu bar and the status bar
-([menu.py](snippets/menu.py)). In the next post I will create a larger
+([menu.py](snippets/menu.py)). In the next lesson I will create a larger
 application from many of the elements that we have seen so far and show
 how code can be organised to simplify coding and maintenance.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post07.md%}) [next]({{ site.baseurl }}{% link wx_python/post09.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson07.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson09.md%})

@@ -54,7 +54,7 @@ code](https://wiki.wxpython.org/wxPython%20Style%20Guide) and
 and docstrings) wherever possible; I apologise for any lapses.
 
 The code for each topic can be downloaded. A link is provided at the
-appropriate point on each post.
+appropriate point on each lesson.
 
 Wherever I use the term *wx* on its own, it is intended to be read as *wxPython*.
 
@@ -70,4 +70,4 @@ and Python's treatment of a function or method call as an object.
 
 Throughout, I have assumed that you will be using Python 3.
 
-[home]({{ site.baseurl }}{% link index.md%}) [next]({{ site.baseurl }}{% link wx_python/post01.md %})
+[home]({{ site.baseurl }}{% link index.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson01.md %})

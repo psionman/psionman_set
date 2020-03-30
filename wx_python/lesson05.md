@@ -4,8 +4,8 @@ layout: "page"
 ## WxPython from Scratch
 ### Check-boxes, getting and setting values, abstracting panels
 
-In previous postings we have seen how to create various widgets and how
-to organise their layout using BoxSizers. In this post we will look at a
+In previous lessonings we have seen how to create various widgets and how
+to organise their layout using BoxSizers. In this lesson we will look at a
 special case of laying out widgets: the
 [StaticBox](https://wxpython.org/Phoenix/docs/html/wx.StaticBox.html)
 and the
@@ -146,7 +146,7 @@ class MainPanel(wx.Panel):
 
 #### Summary
 
-In this post we have seen how to use a more complex widget: a StaticBox,
+In this lesson we have seen how to use a more complex widget: a StaticBox,
 which is used with a StaticBoxSizer. We have placed a number of related
 CheckBoxes into the StaticBox and seen how we can retrieve the value of
 the widgets. Finally, we have abstracted the code related to a logically
@@ -191,7 +191,7 @@ class MainPanel(wx.Panel):
         return sizer
 ```
 
-In the next post I will look at the RadioButton and introduce the most
+In the next lesson I will look at the RadioButton and introduce the most
 flexible of wxPython's sizers: the GridBagSizer
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post04.md%}) [next]({{ site.baseurl }}{% link wx_python/post06.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson04.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson06.md%})

@@ -4,7 +4,7 @@ layout: "page"
 ## WxPython from Scratch
 ### RadioButtons and the GridBagSizer
 
-In this post we will ivestigate two ways to create and organise a set of
+In this lesson we will ivestigate two ways to create and organise a set of
 [RadioButtons](https://wxpython.org/Phoenix/docs/html/wx.RadioButton.html):
 firstly using a StaticBox and then using a specialist widget, the
 [RadioBox](ps://wxpython.org/Phoenix/docs/html/wx.RadioBox.html). Later
@@ -25,7 +25,7 @@ To create a single RadioButton:
 rb_colour = wx.RadioButton(parent=colour_box, label="red", name="red")
 ```
 
-This is almost identical to the CheckBox code in the last post. However,
+This is almost identical to the CheckBox code in the last lesson. However,
 wxPython provides a special widget to contain RadioButtons: the
 RadioBox, and in a RadioBox we do not need to create the buttons
 explicitely.
@@ -116,12 +116,12 @@ horizontal BoxSizers which can be placed within each other.
 
 #### Summary
 
-In this post we have seen how to create and use radio buttons and the
+In this lesson we have seen how to create and use radio buttons and the
 specialised RadioBox. I have introduced the GridBagSizer which allows
 for flexible widget positioning on a grid.
 
-In the next post I will look at two more commonly used widgets: the
+In the next lesson I will look at two more commonly used widgets: the
 listbox and the combobox, and I will consider the use of spacers and
 special flags to control layouts.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post05.md%}) [next]({{ site.baseurl }}{% link wx_python/post07.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson05.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson07.md%})

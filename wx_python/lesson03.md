@@ -4,7 +4,7 @@ layout: "page"
 ## WxPython from Scratch
 ### Text box, button and events
 
-In the last post we saw how to abstract a panel, created a label and
+In the last lesson we saw how to abstract a panel, created a label and
 used sizers to ensure that everything fitted.
 
 Here, we will cover creating more widgets, look again at sizers and
@@ -72,7 +72,7 @@ provide multi-lingual support.
 
 #### Placing the widgets in the sizer
 
-In the previous post we placed the label in the sizer and gave it a
+In the previous lesson we placed the label in the sizer and gave it a
 border to enhance it appearance. When we add more items to the sizer, we
 need to think a little more about the borders. As we are using a
 vertical BoxSizer, the items will be placed one above the other. If we
@@ -143,7 +143,7 @@ deleted. Finally, the Python *quit* method is invoked.
 
 #### Summary
 
-In this posting we have seen how to create a TextCtrl and a button. They
+In this lessoning we have seen how to create a TextCtrl and a button. They
 have been placed in a sizer with appropriate borders. Finally we have
 bound the click event of the button with a method
 ([widgets.py](widgets/label.py)):
@@ -167,7 +167,7 @@ class MainPanel(wx.Panel):
         quit()
 ```
 
-In the next posting we will see how BoxSizers can be used to create more
+In the next lessoning we will see how BoxSizers can be used to create more
 complex layouts.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post02.md%}) [next]({{ site.baseurl }}{% link wx_python/post04.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson02.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson04.md%})

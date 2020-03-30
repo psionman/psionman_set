@@ -4,8 +4,8 @@ layout: "page"
 ## WxPython from Scratch
 ### The Date Picker control and the ObjectListView
 
-In the last post I described the use of two of the wxPython dialogs. In
-this post will deal with two important controls: the Date Picker
+In the last lesson I described the use of two of the wxPython dialogs. In
+this lesson will deal with two important controls: the Date Picker
 control, used for selecting a date, and the ObjectListView used for
 displaying data in a list format.
 
@@ -68,4 +68,4 @@ The points to note are:
     to help with the date conversion in the **wxdate2pydate** function.
 
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post10.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson10.md%})

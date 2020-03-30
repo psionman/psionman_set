@@ -4,7 +4,7 @@ layout: "page"
 ## WxPython from Scratch
 ### Adding a panel and a label
 
-We saw in the last post how to create and display a frame in wxPython.
+We saw in the last lesson how to create and display a frame in wxPython.
 The most robust way to add widgets to your project is first to create a
 [panel](https://wxpython.org/Phoenix/docs/html/wx.Panel.html), add the
 widgets to the panel and then add the panel to the frame. In my
@@ -211,8 +211,8 @@ I will admit this looks slightly ridiculous but note how the border has
 had an effect.
 
 All of the fundamental work has been done to create a more complex
-application with more widgets. In the next post we will add a text box
+application with more widgets. In the next lesson we will add a text box
 and a button and explore more layout options and handle user events.
 
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/post01.md%})  [next]({{ site.baseurl }}{% link wx_python/post03.md%})
+[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson01.md%})  [next]({{ site.baseurl }}{% link wx_python/lesson03.md%})
