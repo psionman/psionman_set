@@ -2,6 +2,7 @@
 layout: "page"
 title: ""
 ---
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson06.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson08.md %})
 
 ### The ListBox, ComboBox and spacers
 
@@ -140,4 +141,4 @@ box and combobox. I have also discussed a more subtle use of sizers to
 improve the placing of widgets on the frame. In the next lesson I
 demonstrate how to create a menu bar and a status bar.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson06.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson08.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson06.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson08.md%})

@@ -3,6 +3,7 @@ layout: 'page'
 title: ""
 ---
 
+[home]({{ site.baseurl }}{% link index.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson01.md %})
 
 ### Introduction
 
@@ -71,4 +72,4 @@ and Python's treatment of a function or method call as an object.
 
 Throughout, I have assumed that you will be using Python 3.
 
-[home]({{ site.baseurl }}{% link index.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson01.md %})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson01.md %})

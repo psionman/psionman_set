@@ -2,6 +2,7 @@
 layout: "page"
 title: ""
 ---
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson07.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson09.md %})
 
 ### A menu bar and status bar
 
@@ -185,4 +186,4 @@ directly to the frame: the menu bar and the status bar
 application from many of the elements that we have seen so far and show
 how code can be organised to simplify coding and maintenance.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson07.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson09.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson07.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson09.md%})

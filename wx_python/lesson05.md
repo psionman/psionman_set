@@ -2,6 +2,7 @@
 layout: "page"
 title: ""
 ---
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson04.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson06.md %})
 
 ### Check-boxes, getting and setting values, abstracting panels
 
@@ -195,4 +196,4 @@ class MainPanel(wx.Panel):
 In the next lesson I will look at the RadioButton and introduce the most
 flexible of wxPython's sizers: the GridBagSizer
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson04.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson06.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson04.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson06.md%})

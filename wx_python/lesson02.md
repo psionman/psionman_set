@@ -3,6 +3,8 @@ layout: "page"
 title: ""
 ---
 
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson01.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson03.md %})
+
 ### Adding a panel and a label
 
 We saw in the last lesson how to create and display a frame in wxPython.
@@ -216,4 +218,4 @@ application with more widgets. In the next lesson we will add a text box
 and a button and explore more layout options and handle user events.
 
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson01.md%})  [next]({{ site.baseurl }}{% link wx_python/lesson03.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson01.md%})  [next]({{ site.baseurl }}{% link wx_python/lesson03.md%})

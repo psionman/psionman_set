@@ -3,6 +3,8 @@ layout: "page"
 title: ""
 ---
 
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/introduction.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson02.md %})
+
 ### Getting started: the frame
 
 Let's define a few terms used by wxPython:
@@ -132,4 +134,4 @@ In the next lesson I will show how to create a label and introduce the
 concept of a sizer and I will elaborate on the way that I suggest that
 code for wxPython is organised.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/introduction.md %}) [next]({{ site.baseurl }}{% link wx_python/lesson02.md %})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/introduction.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson02.md %})

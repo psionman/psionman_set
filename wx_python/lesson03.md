@@ -3,6 +3,7 @@ layout: "page"
 title: ""
 ---
 
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson02.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson03.md %})
 ### Text box, button and events
 
 In the last lesson we saw how to abstract a panel, created a label and
@@ -171,4 +172,4 @@ class MainPanel(wx.Panel):
 In the next lessoning we will see how BoxSizers can be used to create more
 complex layouts.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson02.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson04.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson02.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson04.md%})

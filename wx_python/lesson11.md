@@ -2,6 +2,7 @@
 layout: "page"
 title: ""
 ---
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson10.md %})
 
 ### The Date Picker control and the ObjectListView
 
@@ -69,4 +70,4 @@ The points to note are:
     to help with the date conversion in the **wxdate2pydate** function.
 
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson10.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson10.md%})

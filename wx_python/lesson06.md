@@ -2,6 +2,7 @@
 layout: "page"
 title: ""
 ---
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson05.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson07.md %})
 
 ### RadioButtons and the GridBagSizer
 
@@ -125,4 +126,4 @@ In the next lesson I will look at two more commonly used widgets: the
 listbox and the combobox, and I will consider the use of spacers and
 special flags to control layouts.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson05.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson07.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson05.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson07.md%})

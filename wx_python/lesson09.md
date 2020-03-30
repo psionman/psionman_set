@@ -2,6 +2,7 @@
 layout: "page"
 title: ""
 ---
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson08.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson10.md %})
 
 ### Building a larger application
 
@@ -600,4 +601,4 @@ if __name__ == "__main__":
     screen_app.MainLoop()
 ```
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson08.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson10.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson08.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson10.md%})

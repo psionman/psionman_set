@@ -2,6 +2,7 @@
 layout: "page"
 title: ""
 ---
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson03.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson05.md %})
 
 ### Using BoxSizers to create complex layouts
 
@@ -175,4 +176,4 @@ In the next lesson We will investigate the *StaticBox* which give us the
 ability to group graphically related controls. Then using a *checkbox*
 we will see how the value of a control can be retrieved at run-time.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson03.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson05.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson03.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson05.md%})

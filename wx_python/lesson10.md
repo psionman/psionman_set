@@ -2,6 +2,7 @@
 layout: "page"
 title: ""
 ---
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson09.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson11.md %})
 
 ### Dialogs
 
@@ -211,4 +212,4 @@ The next lesson will deal with two important controls: the Date Picker
 control, used for selecting a date, and the ObjectListView used for
 displaying data in a list format.
 
-[home]({{ site.baseurl }}{% link index.md%}) [previous]({{ site.baseurl }}{% link wx_python/lesson09.md%}) [next]({{ site.baseurl }}{% link wx_python/lesson11.md%})
+[home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson09.md%}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson11.md%})
