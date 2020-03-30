@@ -2,6 +2,8 @@
 layout: "page"
 title: ""
 ---
+## Wx Python from scratch
+
 [home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson06.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson08.md %})
 
 ### The ListBox, ComboBox and spacers

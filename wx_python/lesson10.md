@@ -2,6 +2,8 @@
 layout: "page"
 title: ""
 ---
+## Wx Python from scratch
+
 [home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson09.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson11.md %})
 
 ### Dialogs

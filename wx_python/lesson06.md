@@ -2,6 +2,8 @@
 layout: "page"
 title: ""
 ---
+## Wx Python from scratch
+
 [home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/lesson05.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson07.md %})
 
 ### RadioButtons and the GridBagSizer
