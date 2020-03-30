@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: ""
+title: "aaa"
 ---
 ## Wx Python from scratch
 [home]({{ site.baseurl }}{% link index.md%}) \|  [previous]({{ site.baseurl }}{% link wx_python/introduction.md %}) \|  [next]({{ site.baseurl }}{% link wx_python/lesson02.md %})
