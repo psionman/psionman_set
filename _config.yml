@@ -20,8 +20,13 @@
 
 title: The Psionman Set
 email: psionman.set@gmail.com
+copyright:             >
+  © 2018. All rights reserved.
 description: >- # this means to ignore newlines until "baseurl:"
-  This series of articles and lessons was designed to help me in my journey to programming competence. I hope others find it useful too!
+  A series of articles and lessons designed to help me in my journey to programming competence.
+
+
+
 baseurl: "/psionman_set" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
