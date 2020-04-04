@@ -73,7 +73,7 @@ To support *tabindex* in the *login* we need to create a Django filter
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    url = "home/home_page.html"
+                    url = RETURN_FROM_LOGIN_URL
                 else:
                     messages.error(request, 'Your account is not enabled!')
                 context = {}
