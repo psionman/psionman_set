@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$#" -gt 0 ]; then
+    C=''
+    for i in "$@"; do
+        i="${i//\\/\\\\}"
+        C="$C \"${i//\"/\\\"}\""
+    done
+    git add .
+    git commit -m "$C"
+    git push origin gh-pages
+else
+    echo "No commit text"
+fi

@@ -38,9 +38,9 @@ This document assumes that you have a Wagtail project up and running ([see Start
     {% raw %}{% block content %}{% endraw %}
     Your are logged in as: {{ user.username }}
     <p></p>
-    <a href="/users/login">Logout</a>
+    <a href="/users/logout">Logout</a>
     <p></p>
-    <a href="/users/logout">Login</a>
+    <a href="/users/login">Login</a>
     <p></p>
     <a href="">Change password</a>
     {% raw %}{% endblock %}{% endraw %}
