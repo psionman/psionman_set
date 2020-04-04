@@ -42,7 +42,7 @@ This document assumes that you have a Wagtail project up and running ([see Start
     <p></p>
     <a href="/users/login">Login</a>
     <p></p>
-    <a href="">Change password</a>
+    <a href="/users/change-password">Change password</a>
     {% raw %}{% endblock %}{% endraw %}
     ```
 [Logout user]({{ site.baseurl }}{% link wagtail/user_management/logout.md %})
