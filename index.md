@@ -6,4 +6,6 @@ with some new technology that I was trying to learn and understand.
 
 [Programming utilites]({{ site.baseurl }}{% link programming_utilities/index.md %})
 
+[Wagtail utilites]({{ site.baseurl }}{% link wagtail/index.md %})
+
 [Wx Python from scratch]({{ site.baseurl }}{% link wx_python/wxpython_from_scratch.md %})

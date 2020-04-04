@@ -8,21 +8,18 @@
 ### Python
 
 1. Find the location of your *site-packages* directory
-```console
-python -m site --user-site
-```
+    ```console
+    python -m site --user-site
+    ```
+which will display a site, say *\<site-packages>*
 
-2. Place the module in a directory in
+1. Place the module in a directory in
 
+    > \<site-packages>
 
-> \<site-packages>
+1.Create a bash script in *~/.scripts* e.g.
 
-2. Create a bash script e.g.
-
-```console
-#!/bin/bash
-python <site-packages><module>/main.py
-```
-in
-
-> ~/.scripts
+    ```console
+    #!/bin/bash
+    python <site-packages><module>/main.py
+    ```
