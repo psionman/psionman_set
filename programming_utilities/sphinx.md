@@ -24,3 +24,18 @@ To use the ReadTheDocs theme, in *conf.py* in your source directory:
 ```python3
 html_theme = "sphinx_rtd_theme"
 ```
+
+#### To use markdown with Sphinx
+
+```console
+sudo pip install recommonmark
+```
+
+In *conf.py*
+
+```python3
+source_suffix = ['.rst', '.md']
+source_parsers = {
+   '.md': 'recommonmark.parser.CommonMarkParser',
+}
+```
