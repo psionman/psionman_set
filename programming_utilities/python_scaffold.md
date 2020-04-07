@@ -77,5 +77,9 @@ To set up a python project  (e.g. a wxPython project):
 
 
     if __name__ == '__main__':
-        ProjectClass(
+        ProjectClass()
     ```
+1. This can then be run form the main *\<project>* directory
+  ```console
+  python -m <project>
+  ```
