@@ -27,7 +27,7 @@ This will set up the *Envs* directory as the home for all of you virtualenvs.
 #### Creating a new VirtualEnv
 
 ```console
-mkvirtualenv django
+mkvirtualenv <env name>
 ```
 
 #### To list VirtualEnvs
@@ -37,5 +37,11 @@ workon
 
 #### To activate a VirtualEnv
 ```console
-workon django
+workon <env name>
+```
+
+#### Site packages
+To toggle access to site packages (e.g. wxPython):
+```console
+toggleglobalsitepackages
 ```
