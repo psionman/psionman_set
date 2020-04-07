@@ -63,6 +63,8 @@ To support *tabindex* in the *login* we need to create a Django filter
     (This assumes the *import* statements in [logout]({{ site.baseurl }}{% raw %}{%{% endraw %} link wagtail/user_management/logout.md %}) have already been inserted.)
 
     ```python
+    from django.http import HttpResponseRedirect
+
     def login_view(request):
         form_context = {'login_form': LoginForm,}
         url = "users/login.html"
@@ -73,7 +75,7 @@ To support *tabindex* in the *login* we need to create a Django filter
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    url = RETURN_FROM_LOGIN_URL
+                    return HttpResponseRedirect(RETURN_FROM_LOGIN_URL)
                 else:
                     messages.error(request, 'Your account is not enabled!')
                 context = {}
