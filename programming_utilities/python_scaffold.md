@@ -2,7 +2,7 @@
     layout: page
     title:  ""
 ---
-
+<link rel="icon" href="/YourIcon.ico" type="image/x-icon" />
 
 ### Python Scaffold
 

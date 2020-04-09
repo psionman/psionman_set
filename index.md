@@ -1,6 +1,8 @@
 ---
 layout: home
 ---
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 Welcome to the Psionman Set. This is a series of tutorials that I wrote to help me get to grips
 with some new technology that I was trying to learn and understand.
 
