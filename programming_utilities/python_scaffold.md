@@ -6,6 +6,8 @@
 
 ### Python Scaffold
 
+(N.B. good version of basic wx screen, UserManagement, and Database at github:bridgeclub)
+
 To set up a python project  (e.g. a wxPython project):
 
 1. Create  a respository on github called *\<project>*.
