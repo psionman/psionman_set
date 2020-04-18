@@ -21,6 +21,11 @@ export WORKON_HOME=~/Envs
 mkdir -p $WORKON_HOME
 source /usr/local/bin/virtualenvwrapper.sh
 ```
+or
+```console
+source .local/bin/virtualenvwrapper.sh
+```
+depending on the location of *virtualenvwrapper.sh*.
 
 This will set up the *Envs* directory as the home for all of you virtualenvs.
 

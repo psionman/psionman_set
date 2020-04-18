@@ -13,3 +13,4 @@ This consists of a collection of utilities that I use frequently, and for that r
 * [Remove and disable pyc files and directories]({{ site.baseurl }}{% link programming_utilities/remove_pyc.md %})
 * [Jekyll]({{ site.baseurl }}{% link programming_utilities/jekyll.md %})
 * [Unix]({{ site.baseurl }}{% link programming_utilities/unix.md %})
+* [Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
