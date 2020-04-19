@@ -10,6 +10,15 @@
     ```console
     history 25
     ```
+1. To add a directory to *PATH* add the line tp *./bashrc*
+    ```console
+    export PATH="/path/to/dir:$PATH"
+    ```
+
+1. To run *.bashrc* to evade logging out:
+    ```console
+    source ~/.bashrc
+    ```
 
 1. To search for a command in recent commands:
     ```console

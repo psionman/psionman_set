@@ -23,4 +23,6 @@ sudo apt install python-pip
 
 Setup *virtualenvwrapper*, see [these instructions]({{ site.baseurl }}{% link programming_utilities/virtualenv.md %})
 
+Remove *.pyc* etc., see [these instructions]({{ site.baseurl }}{% link programming_utilities/remove_pyc.md %})
+
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
