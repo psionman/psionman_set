@@ -31,9 +31,9 @@ title: ""
 
 1. If *open in terminal* is missing from Caja:
 ``` console
-	sudo apt-get install caja-open-terminal
+sudo apt-get install caja-open-terminal
 ```
-(Log out if necessary to install)
+    (Log out if necessary to install)
 
 
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

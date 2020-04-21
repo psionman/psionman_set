@@ -2,6 +2,7 @@
     layout: page
     title:  ""
 ---
+[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
 ### Install atom
 
@@ -34,3 +35,5 @@
         apm install simple-drag-drop-text
         ```
         (Requires restart)
+
+[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
