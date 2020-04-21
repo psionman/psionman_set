@@ -14,9 +14,7 @@ title: ""
 
 	```console
 	sudo add-apt-repository ppa:jonathonf/mate-1.22
-
 	sudo apt update
-
 	sudo apt install mate-desktop-environment
 	```
 	(Quite slow - lot to do)
@@ -34,6 +32,14 @@ title: ""
 sudo apt-get install caja-open-terminal
 ```
     (Log out if necessary to install)
+
+1. If *MATE Tweak* is missing from *Control Centre*
+```console
+sudo add-apt-repository ppa:ubuntu-mate-dev/trusty-mate
+sudo apt-get update
+sudo apt-get install mate-tweak
+```
+Use this to remove *Home* folder from desktop.
 
 
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

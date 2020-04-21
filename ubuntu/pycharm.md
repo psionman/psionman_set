@@ -11,8 +11,8 @@ title: ""
 
 1. Download
 
-  ```console
-  sudo snap install pycharm-community --classic
-  ```
+    ```console
+    sudo snap install pycharm-community --classic
+    ```
 
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
