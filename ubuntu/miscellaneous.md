@@ -15,3 +15,8 @@ title: ""
     Enter directory and click on *Bookmark*
 
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+
+2. Add the EN-GB dictionary
+    ```console
+    sudo apt install hunspell-en-gb
+    ```
