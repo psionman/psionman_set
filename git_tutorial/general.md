@@ -3,6 +3,8 @@
     title:  ""
 ---
 
+[Git commands]({{ site.baseurl }}{% link git_tutorial/index.md %})
+
 ## Git
 
 Git is the de facto standard version control system (VCS).
@@ -26,3 +28,5 @@ git add .
 git commit -m "<description>
 git push origin master
 ```
+
+[Git commands]({{ site.baseurl }}{% link git_tutorial/index.md %})
