@@ -1,10 +1,12 @@
 ---
     layout: page
-    title:  "Wx Python from scratch"
+    title:  ''
 ---
 
-Welcome to Wx Python from scratch: a series of short lessons 
-designed to get you up and running with Wx Python. 
+### Wx Python From Scratch
+
+Welcome to Wx Python from scratch: a series of short lessons
+designed to get you up and running with Wx Python.
 It assumes a working knowledge of Python.
 
 1. [Introduction]({{ site.baseurl }}{% link wx_python/introduction.md %})
@@ -19,4 +21,3 @@ It assumes a working knowledge of Python.
 11. [Building a larger application]({{ site.baseurl }}{% link wx_python/lesson09.md %})
 12. [Dialogs]({{ site.baseurl }}{% link wx_python/lesson10.md %})
 13. [The Date Picker control and the ObjectListView]({{ site.baseurl }}{% link wx_python/lesson11.md %})
-

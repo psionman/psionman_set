@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Wagtail"
+title: ''
 ---
 
-### Wagtail Utiliies
+### Wagtail
 
 This set of utilities cover the Wagtail CMS system
 

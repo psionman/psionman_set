@@ -1,7 +1,9 @@
 ---
     layout: page
-    title:  "Programming utilities"
+    title:  ''
 ---
+
+### Utilities
 
 This consists of a collection of utilities that I use frequently, and for that reason, I have included some documentation here.
 
