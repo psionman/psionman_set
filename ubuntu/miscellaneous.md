@@ -14,14 +14,21 @@ title: ""
 
     Enter directory and click on *Bookmark*
 
+1. Install Synaptic (if missing):
+    ```console
+    sudo apt-get install synaptic apt-xapian-index
+    sudo update-apt-xapian-index -vf
+    ```
+
 1. Add the EN-GB dictionary
     ```console
     sudo apt install hunspell-en-gb
+    ```
 
 1. If *open in terminal* is missing from Caja:
-``` console
-sudo apt-get install caja-open-terminal
-```
+    ``` console
+    sudo apt-get install caja-open-terminal
+    ```
     (Log out if necessary to install)
 
 1. Sphinx
