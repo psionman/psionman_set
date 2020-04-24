@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
 ### PyCharm
 
@@ -21,4 +21,4 @@ title: ""
 1. Change default project directory:
     > *Settings \| Appearance & Behaviour \| System Settings \| Default directory*
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

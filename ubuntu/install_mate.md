@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
 ### Setup MATE desktop
 
@@ -42,4 +42,4 @@ sudo apt-get install mate-tweak
 Use this to remove *Home* folder from desktop.
 
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
 ### Add radio stations to RhythmBox
 
@@ -51,4 +51,4 @@ title: ""
      actions\controlwidget=play_or_pause, stop, separator, timeslider_action, separator, fullscreen, mute, volumeslider_action, repeat, set_a_marker, clear_ab_markers, set_b_marker
      ```
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

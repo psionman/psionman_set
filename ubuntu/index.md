@@ -3,9 +3,9 @@ layout: page
 title: ""
 ---
 
-### Build Ubuntu
+### Reinstall Ubuntu
 
-This document was created following a rebuild of Ubuntu 18.04 on 17 April 2020.
+This document was created following a reinstall of Ubuntu 18.04 on 17 April 2020.
 
 A bootable version of Ubuntu 18.04 is on the micro-sd card A.
 

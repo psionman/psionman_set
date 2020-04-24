@@ -2,7 +2,7 @@
     layout: page
     title:  ""
 ---
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
 ### Install atom
 
@@ -36,4 +36,4 @@
         ```
         (Requires restart)
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

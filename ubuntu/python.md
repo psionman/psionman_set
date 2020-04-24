@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
 ### Python
 
@@ -54,4 +54,4 @@ title: ""
 
 1. Remove *.pyc* etc., see [these instructions]({{ site.baseurl }}{% link programming_utilities/remove_pyc.md %})
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

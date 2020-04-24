@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
 ### Install Jekyll
 
@@ -44,4 +44,4 @@ title: ""
 1. To toggle menu bar in Atom press the *Alt* key.
 
 
-[Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
+[Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
