@@ -3,11 +3,10 @@ layout: home
 ---
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-Welcome to the Psionman Set. This is a series of tutorials that I wrote to help me get to grips
-with some new technology that I was trying to learn and understand.
+Welcome to the Psionman Set. These articles were written to help me manage my technology.
 
 [Utilites]({{ site.baseurl }}{% link programming_utilities/index.md %})
 
 [Wagtail]({{ site.baseurl }}{% link wagtail/index.md %})
 
-[Wx Python from scratch]({{ site.baseurl }}{% link wx_python/wxpython_from_scratch.md %})
+[wxPython from scratch]({{ site.baseurl }}{% link wx_python/wxpython_from_scratch.md %})
