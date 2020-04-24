@@ -24,4 +24,17 @@ sudo apt-get install caja-open-terminal
 ```
     (Log out if necessary to install)
 
+1. Sphinx
+    ```console
+    pip install Sphinx
+    pip install sphinx_rtd_theme
+    ```
+
+1. If LaTeX is missing
+    ```console
+    sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+
+    ```
+    install latexmk from [this download page](https://packages.ubuntu.com/xenial/all/latexmk/download)
+
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

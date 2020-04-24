@@ -5,7 +5,7 @@ title: ""
 
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
-### Setup PyCharm
+### PyCharm
 
 1. Instructions from [JetBrains](https://www.jetbrains.com/help/pycharm/installation-guide.html#)
 
@@ -14,5 +14,11 @@ title: ""
     ```console
     sudo snap install pycharm-community --classic
     ```
+
+1. Change toolbar:
+    > *Settings \| Appearance & Behaviour \| Menus and Toolbars \| Main Toolbar*
+
+1. Change default project directory:
+    > *Settings \| Appearance & Behaviour \| System Settings \| Default directory*
 
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
