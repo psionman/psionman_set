@@ -1,0 +1,17 @@
+After pip3 install wxPython
+
+Fails with:
+
+...
+
+wxGLCanvas
+
+Waf: Leaving directory `/tmp/pip-build-5uamiui8/wxPython/build/waf/3.6/gtk3'
+Build failed
+-> task in '_glcanvas' failed with exit status 1 (run with -v to display more information)
+-> task in '_glcanvas' failed with exit status 1 (run with -v to display more information)
+-> task in '_glcanvas' failed with exit status 1 (run with -v to display more information)
+Command '"/usr/bin/python3" /tmp/pip-build-5uamiui8/wxPython/bin/waf-2.0.19 --wx_config=/tmp/pip-build-5uamiui8/wxPython/build/wxbld/gtk3/wx-config --gtk3 --python="/usr/bin/python3" --out=build/waf/3.6/gtk3 configure build ' failed with exit code 1.
+Finished command: build_py (23m23.595s)
+Finished command: build (35m34.564s)
+Command '"/usr/bin/python3" -u build.py build' failed with exit code 1.
