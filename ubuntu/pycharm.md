@@ -14,8 +14,13 @@ title: ""
     ```console
     sudo snap install pycharm-community --classic
     ```
+1. Display Toolbar
+    > *View \| Appearance \| Toolbar
 
 1. Change toolbar:
+
+    Click on *Spanner* Icon or
+    
     > *Settings \| Appearance & Behaviour \| Menus and Toolbars \| Main Toolbar*
 
 1. Change default project directory:

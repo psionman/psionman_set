@@ -25,12 +25,10 @@ title: ""
 
 1. Select *BlueMenta* theme
 
-1. On the top panel, right click and choose Add to panel.
-	  Reove the *Mate* menu and add:
+1. On the top panel, right click and choose Add to panel. Remove the *Mate* menu and add:
 
 		* Menu bar
 		* Clock
-		* Menu Bar
 		* Shut down
 		* Volume control
 

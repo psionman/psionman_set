@@ -15,13 +15,14 @@ title: ""
     sudo apt install gnome-software-plugin-flatpak
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     ```
-    1. Install [Shortwave](http://ubuntuhandbook.org/index.php/2020/03/internet-radio-player-shortwave-1-0-released/)
-    ```console
-    flatpak install flathub de.haeckerfelix.Shortwave
-    ```
-    Terminal command to run shortwave
-    ```console
-    flatpak run de.haeckerfelix.Shortwave  ```
+1. Install [Shortwave](http://ubuntuhandbook.org/index.php/2020/03/internet-radio-player-shortwave-1-0-released/)
+```console
+flatpak install flathub de.haeckerfelix.Shortwave
+```
+Terminal command to run shortwave:
+```console
+flatpak run de.haeckerfelix.Shortwave  
+```
 
 ### Install OpenShot
 
@@ -58,7 +59,7 @@ title: ""
      actions\controlwidget=play_or_pause, stop, separator, timeslider_action, separator, fullscreen, mute, volumeslider_action, repeat, set_a_marker, clear_ab_markers, set_b_marker
      ```
 
- ### Add radio stations to RhythmBox
+### Add radio stations to RhythmBox
 
  (N.B. Not official BBC urls)
 
