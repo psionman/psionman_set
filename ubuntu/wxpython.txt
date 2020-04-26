@@ -1,0 +1,14 @@
+Waf: Entering directory `/tmp/pip-build-5_w6b9qs/wxPython/build/waf/3.6/gtk3'
+**** Compiler: /usr/bin/gcc --version
+     gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+     Copyright (C) 2017 Free Software Foundation, Inc.
+     This is free software; see the source for copying conditions.  There is NO
+     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Waf: Leaving directory `/tmp/pip-build-5_w6b9qs/wxPython/build/waf/3.6/gtk3'
+'build' finished successfully (3.272s)
+
+------------ BUILD FINISHED ------------
+To use wxPython from the build folder (without installing):
+ - Set your PYTHONPATH variable to /tmp/pip-build-5_w6b9qs/wxPython.
+ - You may also need to set your (DY)LD_LIBRARY_PATH to /tmp/pip-build-5_w6b9qs/wxPython/build/wxbld/gtk3/lib,
+   or wherever the wxWidgets libs have been installed.

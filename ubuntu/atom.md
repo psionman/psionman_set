@@ -16,7 +16,9 @@
 
     *Settings>Themes* then *atom-light-syntax*
 
-1. Packages:
+    (UI theme and Syntax theme.)
+
+1. In Settings \| Install:
 
     1. Tool Bar. Change icon size to *14px*
 
@@ -30,10 +32,12 @@
 
     1. MiniMap
 
+    1. Minimap-lens
+
     1. Simple drag and drop
         ```console
         apm install simple-drag-drop-text
         ```
-        (Requires restart)
+        (Requires restart of Atom)
 
 [Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

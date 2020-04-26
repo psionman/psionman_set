@@ -41,6 +41,7 @@ title: ""
     sudo apt-get update
     sudo apt-get install libwxgtk3.0-0v5
     ```
+    installed *libwxbase3.0-dev* using *Synaptic*
 
 1. Python packages to add
 

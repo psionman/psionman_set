@@ -10,7 +10,7 @@ This document was created following a reinstall of Ubuntu 18.04 on 17 April 2020
 A bootable version of Ubuntu 18.04 is on the micro-sd card A.
 
 
-1. [Setup MATE desktop]({{ site.baseurl }}{% link ubuntu/install_mate.md %})
+1. [Setup MATE desktop]({{ site.baseurl }}{% link ubuntu/mate.md %})
 
 1. [Dropbox]({{ site.baseurl }}{% link ubuntu/dropbox.md %})
 
@@ -18,7 +18,7 @@ A bootable version of Ubuntu 18.04 is on the micro-sd card A.
 
 1. [PyCharm]({{ site.baseurl }}{% link ubuntu/pycharm.md %})
 
-1. [Jekyll/Atom]({{ site.baseurl }}{% link ubuntu/install_jekyll.md %})
+1. [Jekyll/Atom]({{ site.baseurl }}{% link ubuntu/jekyll.md %})
 
 1. [Atom]({{ site.baseurl }}{% link ubuntu/atom.md %})
 

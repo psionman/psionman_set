@@ -23,7 +23,16 @@ title: ""
 
 1. Choose MATE from the login screen
 
-1. Select *Radiance* theme
+1. Select *BlueMenta* theme
+
+1. On the top panel, right click and choose Add to panel.
+	  Reove the *Mate* menu and add:
+
+		* Menu bar
+		* Clock
+		* Menu Bar
+		* Shut down
+		* Volume control
 
 1. Set background
 
@@ -41,5 +50,11 @@ sudo apt-get install mate-tweak
 ```
 Use this to remove *Home* folder from desktop.
 
+1. Mozo is the Mate menu editor
+    ```console
+    sudo apt-get update -y
+    sudo apt-get install -y mozo
+    sudo mozo
+    ```
 
 [Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
