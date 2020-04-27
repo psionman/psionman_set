@@ -7,7 +7,7 @@
 
 #### To remove existing pyc files and directories
 ```console
-find . \( -name "*__pycache__" -o -name "*.pyc" -o -name "*.pyo" \) -delete
+find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 export PYTHONDONTWRITEBYTECODE=1
 source ~/.bashrc
 ```

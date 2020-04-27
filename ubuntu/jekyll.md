@@ -24,24 +24,10 @@ title: ""
 1. If necessary:
     ``` console
     bundle install
-    ```
 
-### Install Atom
-
-1. Go to the [Download site](https://atom.io/)
-
-1. Download the *.deb* file
-
-1. Open with *Software Install*
-
-1. Change theme in *Edit/Preferences/Themes*
-
-1. To install tool-bar
+1. *Watchers*
    ```console
-   apm install tool-bar
-   apm install tool-bar-atom
+   echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
    ```
-1. To toggle menu bar in Atom press the *Alt* key.
-
 
 [Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

@@ -7,7 +7,7 @@
 ### Install atom
 
 1. Install.
-    1. Go to the [download page](https://atom.io/})
+    1. Go to the [download page](https://atom.io/)
     1. Right click on the file and use *Install software*
 
 1. Theme:
@@ -40,4 +40,5 @@
         ```
         (Requires restart of Atom)
 
+    1. Change *tab* length to 4 and *type* to soft.
 [Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

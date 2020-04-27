@@ -26,10 +26,11 @@ title: ""
 ```console
 sudo apt install make gcc libgtk-3-dev libwebkitgtk-dev libwebkitgtk-3.0-dev libgstreamer-gl1.0-0 freeglut3 freeglut3-dev python-gst-1.0 python3-gst-1.0 libglib2.0-dev ubuntu-restricted-extras libgstreamer-plugins-base1.0-dev
 
-sudo pip install wxpython
+pip3 install wxpython
 ```
+(Go and make a cup of coffee!)
 
-1. wxPython
+<!-- 1. wxPython
     ```console
     pip3 install wxPython
     ```
@@ -49,7 +50,7 @@ sudo pip install wxpython
     sudo apt-get update
     sudo apt-get install libwxgtk3.0-0v5
     ```
-    installed *libwxbase3.0-dev* using *Synaptic*
+    installed *libwxbase3.0-dev* using *Synaptic* -->
 
 1. Python packages to add
 
