@@ -24,6 +24,7 @@ title: ""
 1. If necessary:
     ``` console
     bundle install
+    ```
 
 1. *Watchers*
    ```console
