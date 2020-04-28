@@ -58,6 +58,10 @@ pip3 install wxpython
     pip install -U pytest
     pip install termcolor
     pip install mock
+    pip install PyDispatcher
+    pip install python-docx
+    pip install PyPDF4
+    pip install openpyxl
     ```
 
 1. Setup *virtualenvwrapper*, see [these instructions]({{ site.baseurl }}{% link programming_utilities/virtualenv.md %})

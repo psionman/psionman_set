@@ -38,4 +38,4 @@ displays information about files that have been modified.
     ```
     This creates a *reference* or *checkpoint*. (*commit*s are a special sort of *reverence* of *checkpoint* called a *revision*.)
 
-Git commands]({{ site.baseurl }}{% link git_tutorial/index.md %})
+[Git commands]({{ site.baseurl }}{% link git_tutorial/index.md %})
