@@ -7,6 +7,11 @@ title: ""
 
 ### Miscellaneous
 
+1. Add *.scripts* to PATH:
+    ```console
+    export PATH="$HOME/.scripts:$PATH"
+    ```
+
 1. Add folder to Caja favourites
   Edit *.config/user-dirs.dirs*
 

@@ -5,7 +5,7 @@ layout: home
 
 Welcome to the Psionman Set. These articles were written to help me manage my technology.
 
-[Utilites]({{ site.baseurl }}{% link programming_utilities/index.md %})
+[Utilites]({{ site.baseurl }}{% link utilities/index.md %})
 
 [Wagtail]({{ site.baseurl }}{% link wagtail/index.md %})
 

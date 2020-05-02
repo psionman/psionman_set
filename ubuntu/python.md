@@ -64,8 +64,8 @@ pip3 install wxpython
     pip install openpyxl
     ```
 
-1. Setup *virtualenvwrapper*, see [these instructions]({{ site.baseurl }}{% link programming_utilities/virtualenv.md %})
+1. Setup *virtualenvwrapper*, see [these instructions]({{ site.baseurl }}{% link utilities/virtualenv.md %})
 
-1. Remove *.pyc* etc., see [these instructions]({{ site.baseurl }}{% link programming_utilities/remove_pyc.md %})
+1. Remove *.pyc* etc., see [these instructions]({{ site.baseurl }}{% link utilities/remove_pyc.md %})
 
 [Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
