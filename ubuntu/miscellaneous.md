@@ -42,13 +42,14 @@ title: ""
     pip install sphinx_rtd_theme
     ```
 
-1. Install [PrintFriendly](https://www.printfriendly.com/)
-
 1. If LaTeX is missing
     ```console
     sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
 
     ```
     install latexmk from [this download page](https://packages.ubuntu.com/xenial/all/latexmk/download)
+
+
+1. Install [PrintFriendly](https://www.printfriendly.com/) to Firefox.
 
 [Build Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})

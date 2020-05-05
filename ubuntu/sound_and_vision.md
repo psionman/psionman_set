@@ -59,6 +59,60 @@ flatpak run de.haeckerfelix.Shortwave
      actions\controlwidget=play_or_pause, stop, separator, timeslider_action, separator, fullscreen, mute, volumeslider_action, repeat, set_a_marker, clear_ab_markers, set_b_marker
      ```
 
+### Serviio
+
+1. Download instruction are on the [Wiki page](https://wiki.serviio.org/doku.php?id=howto:linux:install:ubuntu18-04).
+This is a summary.
+
+1. In the Terminal
+    ```console
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install net-tools software-properties-common openjdk-8-jre default-jre ffmpeg dcraw wget
+    cd /opt
+    sudo wget http://download.serviio.org/releases/serviio-2.0-linux.tar.gz
+    sudo tar zxvf serviio-2.0-linux.tar.gz
+    sudo ln -s serviio-2.0 serviio
+    sudo chown -R root:root /opt
+    ```
+1. Start the server
+    ```console
+    sudo /opt/serviio/bin/serviio.sh
+    ```
+1. Check in the browser at *http://192.168.1.138:23423/console* (use *ifconfig* to get ip address)
+
+1. If it's working
+    ```console
+    sudo rm serviio-2.0-linux.tar.gz
+    ```
+1. Create *serviio.service*
+    ```console
+    sudo gedit /lib/systemd/system/serviio.service
+    ```
+    Paste in the following:
+    ```
+    [Unit]
+    Description=Serviio Media Server
+    After=syslog.target local-fs.target network.target
+
+    [Service]
+    Type=simple
+    ExecStart=/opt/serviio/bin/serviio.sh
+    ExecStop=/opt/serviio/bin/serviio.sh -stop
+    KillMode=none
+    Restart=on-abort
+
+    [Install]
+    WantedBy=multi-user.target
+    ```
+1. Enable the Service
+    ```console
+    sudo systemctl daemon-reload
+    sudo systemctl enable serviio.service
+    sudo systemctl start serviio.service
+    ```
+1. Reboot the system
+
 ### Add radio stations to RhythmBox
 
  (N.B. Not official BBC urls)
