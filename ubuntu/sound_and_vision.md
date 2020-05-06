@@ -113,9 +113,16 @@ This is a summary.
     ```
 1. Reboot the system
 
+### pulseaudio
+
+If *pulseaudio* does not start, add the following command to *Startup Applications*
+```console
+pulseaudio --start
+```
+
 ### Add radio stations to RhythmBox
 
- (N.B. Not official BBC urls)
+  (N.B. Not official BBC urls)
 
  1. http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p
 
