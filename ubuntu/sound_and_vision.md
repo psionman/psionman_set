@@ -61,7 +61,7 @@ flatpak run de.haeckerfelix.Shortwave
 
 ### Serviio
 
-1. Download instruction are on the [Wiki page](https://wiki.serviio.org/doku.php?id=howto:linux:install:ubuntu18-04).
+1. Download instructions are on the [Wiki page](https://wiki.serviio.org/doku.php?id=howto:linux:install:ubuntu18-04).
 This is a summary.
 
 1. In the Terminal
@@ -79,7 +79,7 @@ This is a summary.
     ```console
     sudo /opt/serviio/bin/serviio.sh
     ```
-1. Check in the browser at *http://192.168.1.138:23423/console* (use *ifconfig* to get ip address)
+1. Check in the browser at [http://192.168.1.138:23423/console](http://192.168.1.138:23423/console) (use *ifconfig* to get ip address)
 
 1. If it's working
     ```console
