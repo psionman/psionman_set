@@ -59,6 +59,19 @@ flatpak run de.haeckerfelix.Shortwave
      actions\controlwidget=play_or_pause, stop, separator, timeslider_action, separator, fullscreen, mute, volumeslider_action, repeat, set_a_marker, clear_ab_markers, set_b_marker
      ```
 
+### Spotify
+```console
+snap install spotify
+```
+
+### pulseaudio
+
+If *pulseaudio* does not start, add the following command to *Startup Applications*
+```console
+pulseaudio --start
+```
+
+
 ### Serviio
 
 1. Download instructions are on the [Wiki page](https://wiki.serviio.org/doku.php?id=howto:linux:install:ubuntu18-04).
@@ -112,13 +125,6 @@ This is a summary.
     sudo systemctl start serviio.service
     ```
 1. Reboot the system
-
-### pulseaudio
-
-If *pulseaudio* does not start, add the following command to *Startup Applications*
-```console
-pulseaudio --start
-```
 
 ### Add radio stations to RhythmBox
 
