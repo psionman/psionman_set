@@ -88,6 +88,7 @@ This is a summary.
     sudo ln -s serviio-2.0 serviio
     sudo chown -R root:root /opt
     ```
+
 1. Start the server
     ```console
     sudo /opt/serviio/bin/serviio.sh
@@ -125,6 +126,15 @@ This is a summary.
     sudo systemctl start serviio.service
     ```
 1. Reboot the system
+
+### OBS Studio
+
+```console
+udo apt install ffmpeg
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio
+```
 
 ### Add radio stations to RhythmBox
 
