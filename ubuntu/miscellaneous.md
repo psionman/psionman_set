@@ -42,6 +42,11 @@ title: ""
     pip install sphinx_rtd_theme
     ```
 
+1. Tree
+    ```
+    sudo apt install tree
+    ```
+
 1. If LaTeX is missing
     ```console
     sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended

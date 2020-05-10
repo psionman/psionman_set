@@ -3,7 +3,7 @@ layout: home
 ---
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-Welcome to the Psionman Set. These articles were written to help me manage my technology.
+Welcome to the Psionman Set.
 
 [Utilites]({{ site.baseurl }}{% link utilities/index.md %})
 

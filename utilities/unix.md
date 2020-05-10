@@ -39,3 +39,8 @@ E.g for *libgstreamer-plugins-base1.0-0*
 ldconfig -p | grep libgstreamer-plugins-base1.0-0
 ```
 If it exists you will see a list of information, if not, nothing is output.
+
+### Flip image horizontally (mirror)
+```console
+ffmpeg -i input.mp4 -vf "transpose=0,transpose=1" output.mp4
+```

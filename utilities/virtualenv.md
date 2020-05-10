@@ -23,15 +23,16 @@ source /usr/local/bin/virtualenvwrapper.sh
 ```
 or
 ```console
-source .local/bin/virtualenvwrapper.sh
+source ~/.local/bin/virtualenvwrapper.sh
 ```
 depending on the location of *virtualenvwrapper.sh*.
-> export WORKON_HOME=~/Envs
-
-> source /usr/local/bin/virtualenvwrapper.sh
 
 If necessary, add the following  lines to *~/.bashrc*
 
+```
+export WORKON_HOME=~/Envs
+source /usr/local/bin/virtualenvwrapper.sh
+```
 
 
 This will set up the *Envs* directory as the home for all of you virtualenvs.

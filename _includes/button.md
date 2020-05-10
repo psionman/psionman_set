@@ -1,0 +1,42 @@
+<button
+  class="copy-code-button"
+  aria-label="Copy code block to your clipboard"
+  data-code="{{ include.code | escape }}"
+></button>
+```{{ include.lang }}
+{{ include.code }}
+```
+
+.copy-code-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #616161;
+    color: #e7e7e7;
+    padding: 0.4em 0.5em;
+    border-radius: 5px;
+
+    &::before {
+        content: "Copy";
+    }
+
+    &::after {
+        margin-left: 4px;
+        content: "📋";
+        width: 1em;
+    }
+
+    // This class will be toggled via JavaScript
+    &.copied {
+        &::before {
+            content: "Copied!";
+        }
+
+        &::after {
+            content: "✔️";
+        }
+    }
+}

@@ -16,6 +16,7 @@ var clipboard{{ nanosecond }} = new Clipboard(copybutton);
 
 clipboard{{ nanosecond }}.on('success', function(e) {
     console.log(e);
+    alert("Copied the text: " + copyText.value);
 });
 clipboard{{ nanosecond }}.on('error', function(e) {
     console.log(e);

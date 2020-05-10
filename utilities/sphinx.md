@@ -36,9 +36,7 @@
 1. To use *markdown*
     ```python3
     source_suffix = ['.rst', '.md']
-    source_parsers = {
-       '.md': 'recommonmark.parser.CommonMarkParser',
-    }
+    source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser',}
     ```
 
 1. To remove blank pages from LaTeX documents: in *conf.py*:
