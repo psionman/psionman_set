@@ -69,3 +69,25 @@
     ```python3
     (See :numref:`simple_modern_acol` A sample convention card)
     ```
+
+### To use markdown
+
+See [Sphinx pages](https://www.sphinx-doc.org/en/master/usage/markdown.html)
+
+1. In terminal
+    ```
+    pip install --upgrade recommonmark
+    ```
+2. in conf.py
+    ```python3
+    from recommonmark.parser import CommonMarkParser
+    ...
+    extensions = ['recommonmark']
+    ...
+    source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser',}
+    source_suffix = {
+        '.rst': 'restructuredtext',
+        '.txt': 'markdown',
+        '.md': 'markdown',
+    }
+    ```

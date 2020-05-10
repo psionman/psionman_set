@@ -39,3 +39,17 @@ displays information about files that have been modified.
     This creates a *reference* or *checkpoint*. (*commit*s are a special sort of *reverence* of *checkpoint* called a *revision*.)
 
 [Git commands]({{ site.baseurl }}{% link git_tutorial/index.md %})
+
+### Link an existing project with a respository on bitbucket
+
+1. In the terminal
+    ```
+    git init
+    ```
+
+2 . Copy the *git remote add  ...* code and run in terminal
+
+3. In terminal
+    ```
+    git push --set-upstream origin master
+    ```
