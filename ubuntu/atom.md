@@ -1,6 +1,6 @@
 ---
-    layout: reinstall_ubuntu
-    title:  "Install atomA"
+    layout: page
+    title:  "Install atom"
 ---
 [Reinstall Ubuntu]({{ site.baseurl }}{% link ubuntu/index.md %})
 
