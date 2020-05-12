@@ -23,7 +23,7 @@ Your are logged in as: {{ user.username }}
 
 1. Create a new app *users*
 
-    ```console
+    ```bash
     ./manage.py startapp users
     ```
 1. Update *base.py*

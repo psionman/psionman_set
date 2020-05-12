@@ -8,7 +8,7 @@
 ### Python
 
 1. Find the location of your *site-packages* directory
-    ```console
+    ```bash
     python -m site --user-site
     ```
 which will display a site, say *\<site-packages>*
@@ -19,7 +19,7 @@ which will display a site, say *\<site-packages>*
 
 1.Create a bash script in *~/.scripts* e.g.
 
-    ```console
+    ```bash
     #!/bin/bash
     python <site-packages><module>/main.py
     ```

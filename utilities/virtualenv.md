@@ -9,20 +9,20 @@
 
 #### Installing Virtualenv
 
-```console
+```bash
 python -m pip install --user virtualenv
 ```
 
 #### Installing VirtualEnvWrapper
 
-```console
+```bash
 pip install virtualenvwrapper
 export WORKON_HOME=~/Envs
 mkdir -p $WORKON_HOME
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 or
-```console
+```bash
 source ~/.local/bin/virtualenvwrapper.sh
 ```
 depending on the location of *virtualenvwrapper.sh*.
@@ -39,22 +39,22 @@ This will set up the *Envs* directory as the home for all of you virtualenvs.
 
 #### Creating a new VirtualEnv
 
-```console
+```bash
 mkvirtualenv <env name>
 ```
 
 #### To list VirtualEnvs
-```console
+```bash
 workon
 ```
 
 #### To activate a VirtualEnv
-```console
+```bash
 workon <env name>
 ```
 
 #### Site packages
 To toggle access to site packages (e.g. wxPython):
-```console
+```bash
 toggleglobalsitepackages
 ```

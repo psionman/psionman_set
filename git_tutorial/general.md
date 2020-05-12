@@ -11,19 +11,19 @@ Git is the de facto standard version control system (VCS).
 
 ####  Initiate a git directory
 
-```console
+```bash
 git init
 ```
 
 ####  Save username and password
 
-```console
+```bash
 git config credential.helper store
 ```
 
 ####  Basic git push workflow
 
-```console
+```bash
 git add .
 git commit -m "<description>
 git push origin master

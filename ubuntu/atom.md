@@ -35,7 +35,7 @@
     1. Minimap-lens
 
     1. Simple drag and drop
-        ```console
+        ```bash
         apm install simple-drag-drop-text
         ```
         (Requires restart of Atom)

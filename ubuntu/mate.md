@@ -12,8 +12,8 @@ title: ""
 
 1. Install MATE
 
-	```console
-	sudo add-apt-repository ppa:jonathonf/mate-1.22
+	```bash
+	sudo add-apt-repository ppa:jonathonf/mate-1.22 && sudo apt update && sudo apt install mate-desktop-environment
 	sudo apt update
 	sudo apt install mate-desktop-environment
 	```
@@ -35,21 +35,22 @@ title: ""
 1. Set background
 
 1. If *open in terminal* is missing from Caja:
-``` console
-sudo apt-get install caja-open-terminal
-```
+
+{% capture code %}sudo apt-get install caja-open-terminal{% endcapture %}
+{% include code.html code=code lang="bash" %}
+
     (Log out if necessary to install)
 
 1. If *MATE Tweak* is missing from *Control Centre*
-```console
-sudo add-apt-repository ppa:ubuntu-mate-dev/trusty-mate
+```bash
+sudo add-apt-repository ppa:ubuntu-mate-dev/trusty-mate ; sudo apt-get update ; sudo apt-get install mate-tweak
 sudo apt-get update
 sudo apt-get install mate-tweak
 ```
 Use this to remove *Home* folder from desktop.
 
 1. Mozo is the Mate menu editor
-    ```console
+    ```bash
     sudo apt-get update -y
     sudo apt-get install -y mozo
     sudo mozo

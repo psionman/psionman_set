@@ -11,7 +11,7 @@ title: ""
 
 1. In terminal
 
-    ``` console
+    ``` bash
     sudo apt-get install ruby-full build-essential zlib1g-dev
     echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
     echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
@@ -22,12 +22,12 @@ title: ""
     (Takes some time!)
 
 1. If necessary:
-    ``` console
+    ``` bash
     bundle install
     ```
 
 1. *Watchers*
-   ```console
+   ```bash
    echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
    ```
 

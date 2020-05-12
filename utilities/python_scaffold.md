@@ -82,6 +82,6 @@ To set up a python project  (e.g. a wxPython project):
         ProjectClass()
     ```
 1. This can then be run form the main *\<project>* directory
-  ```console
+  ```bash
   python -m <project>
   ```

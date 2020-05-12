@@ -8,7 +8,7 @@ title: ""
 ### Miscellaneous
 
 1. Add *.scripts* to PATH:
-    ```console
+    ```bash
     export PATH="$HOME/.scripts:$PATH"
     ```
 
@@ -20,24 +20,24 @@ title: ""
     Enter directory and click on *Bookmark*
 
 1. Install Synaptic (if missing):
-    ```console
+    ```bash
     sudo apt-get install synaptic apt-xapian-index
     sudo update-apt-xapian-index -vf
     ```
 
 1. Add the EN-GB dictionary
-    ```console
+    ```bash
     sudo apt install hunspell-en-gb
     ```
 
 1. If *open in terminal* is missing from Caja:
-    ``` console
+    ``` bash
     sudo apt-get install caja-open-terminal
     ```
     (Log out if necessary to install)
 
 1. Sphinx
-    ```console
+    ```bash
     pip install Sphinx
     pip install sphinx_rtd_theme
     ```
@@ -48,7 +48,7 @@ title: ""
     ```
 
 1. If LaTeX is missing
-    ```console
+    ```bash
     sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
 
     ```

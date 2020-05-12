@@ -8,7 +8,7 @@ title: ""
 ### Shortwave Radio
 
 1. Install [*Flatpack*](https://flatpak.org/setup/Ubuntu/)
-    ```console
+    ```bash
     sudo add-apt-repository ppa:alexlarsson/flatpak
     sudo apt update
     sudo apt install flatpak
@@ -16,18 +16,18 @@ title: ""
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     ```
 1. Install [Shortwave](http://ubuntuhandbook.org/index.php/2020/03/internet-radio-player-shortwave-1-0-released/)
-```console
+```bash
 flatpak install flathub de.haeckerfelix.Shortwave
 ```
 Terminal command to run shortwave:
-```console
+```bash
 flatpak run de.haeckerfelix.Shortwave  
 ```
 
 ### Install OpenShot
 
 1. In terminal:
-  ```console
+  ```bash
   sudo add-apt-repository ppa:openshot.developers/ppa
   sudo apt-get update
   sudo apt-get install openshot-qt
@@ -36,14 +36,14 @@ flatpak run de.haeckerfelix.Shortwave
 ### Install Audacious
 
 1. In terminal:
-  ```console
+  ```bash
   sudo apt-get install audacious
   ```
 
 ### Install SM Player
 
 1. In terminal:
-  ```console
+  ```bash
   sudo add-apt-repository ppa:rvm/smplayer
   sudo apt-get update
   sudo apt-get install smplayer smplayer-themes smplayer-skins
@@ -54,20 +54,20 @@ flatpak run de.haeckerfelix.Shortwave
    1. Make sure SmPlayer is closed
 
    1. edit *~/.config/smplayer/smplayer.ini*
-     ```console  
+     ```bash  
      [mini_gui]
      actions\controlwidget=play_or_pause, stop, separator, timeslider_action, separator, fullscreen, mute, volumeslider_action, repeat, set_a_marker, clear_ab_markers, set_b_marker
      ```
 
 ### Spotify
-```console
+```bash
 snap install spotify
 ```
 
 ### pulseaudio
 
 If *pulseaudio* does not start, add the following command to *Startup Applications*
-```console
+```bash
 pulseaudio --start
 ```
 
@@ -78,7 +78,7 @@ pulseaudio --start
 This is a summary.
 
 1. In the Terminal
-    ```console
+    ```bash
     sudo apt update
     sudo apt upgrade
     sudo apt install net-tools software-properties-common openjdk-8-jre default-jre ffmpeg dcraw wget
@@ -90,17 +90,17 @@ This is a summary.
     ```
 
 1. Start the server
-    ```console
+    ```bash
     sudo /opt/serviio/bin/serviio.sh
     ```
-1. Check in the browser at [http://192.168.1.138:23423/console](http://192.168.1.138:23423/console) (use *ifconfig* to get ip address)
+1. Check in the browser at [http://192.168.1.138:23423/bash](http://192.168.1.138:23423/bash) (use *ifconfig* to get ip address)
 
 1. If it's working
-    ```console
+    ```bash
     sudo rm serviio-2.0-linux.tar.gz
     ```
 1. Create *serviio.service*
-    ```console
+    ```bash
     sudo gedit /lib/systemd/system/serviio.service
     ```
     Paste in the following:
@@ -120,7 +120,7 @@ This is a summary.
     WantedBy=multi-user.target
     ```
 1. Enable the Service
-    ```console
+    ```bash
     sudo systemctl daemon-reload
     sudo systemctl enable serviio.service
     sudo systemctl start serviio.service
@@ -129,7 +129,7 @@ This is a summary.
 
 ### OBS Studio
 
-```console
+```bash
 udo apt install ffmpeg
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
@@ -145,7 +145,7 @@ sudo apt install obs-studio
  1. http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_p
 
  1. Install extra codecs (f necessary)
-   ```console
+   ```bash
    sudo apt install ubuntu-restricted-extras
    ```
 

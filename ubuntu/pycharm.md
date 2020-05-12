@@ -11,7 +11,7 @@ title: ""
 
 1. Download
 
-    ```console
+    ```bash
     sudo snap install pycharm-community --classic
     ```
 1. Display Toolbar

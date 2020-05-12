@@ -8,7 +8,7 @@ title: ""
 ### Python
 
 1. To set Python 3 as the default:
-    ```console
+    ```bash
     sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 10
     sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 20
     ```
@@ -16,14 +16,14 @@ title: ""
 
 1. Install *pip*
 
-    ```console
+    ```bash
     sudo apt-get install python3-pip
     sudo apt install python-pip
     ```
 
 ### wxPython
 
-```console
+```bash
 sudo apt install make gcc libgtk-3-dev libwebkitgtk-dev libwebkitgtk-3.0-dev libgstreamer-gl1.0-0 freeglut3 freeglut3-dev python-gst-1.0 python3-gst-1.0 libglib2.0-dev ubuntu-restricted-extras libgstreamer-plugins-base1.0-dev
 
 pip3 install wxpython
@@ -31,7 +31,7 @@ pip3 install wxpython
 (Go and make a cup of coffee!)
 
 <!-- 1. wxPython
-    ```console
+    ```bash
     pip3 install wxPython
     ```
     (takes 30+ minutes)
@@ -40,13 +40,13 @@ pip3 install wxpython
     > No package ‘gtk+-3.0’ found
 
     then run
-    ```console
+    ```bash
     sudo apt-get install libgtk-3-dev
     ```
     If it fails with
     > No such file or directory: 'build/lib.linux-x86_64-3.6/wx/libwx_baseu-3.0.so'
 
-    ```console
+    ```bash
     sudo apt-get update
     sudo apt-get install libwxgtk3.0-0v5
     ```
@@ -54,7 +54,7 @@ pip3 install wxpython
 
 1. Python packages to add
 
-    ```console
+    ```bash
     pip install -U pytest
     pip install termcolor
     pip install mock

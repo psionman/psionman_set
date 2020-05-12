@@ -10,19 +10,19 @@
 #### Installing Sphinx
 
 1. Install
-    ```console
+    ```bash
     pip install -U Sphinx
     ```
 
 1. To use markdown with Sphinx
-    ```console
+    ```bash
     sudo pip install recommonmark
     ```
 
 #### Start a Sphinx project
 
 1. Navigate to your *docs* directory and enter:
-    ```console
+    ```bash
     sphinx-quickstart
     ```
     Sphinx will then run through the questions it needs a to create the project.

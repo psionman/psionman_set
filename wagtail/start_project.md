@@ -7,31 +7,31 @@ title: ""
 
 1. Enter your virtualenv for wagtail (mine is *wagtail*)
 
-    ```console
+    ```bash
     workon wagtail
     ```
 
 1.  Create your wagtail project (e.g. **wagtail\_blog**). *NB the wagtail\_blog directory is created by this*.
 
-    ``` console
+    ``` bash
     wagtail start wagtail_blog
     ```
 
 1.  Change directory to the project directory:
 
-    ``` console
+    ``` bash
     cd wagtail_blog
     ```
 
 1.  Install requirements:
 
-    ``` console
+    ``` bash
     pip install -r requirements.txt
     ```
 
 1. Create the *migration* command *mm*:
 
-    ``` console
+    ``` bash
     python manage.py makemigrations
     python manage.py migrate
     ```
@@ -39,25 +39,25 @@ title: ""
 
 1.  Migrate:
 
-    ``` console
+    ``` bash
     python manage.py migrate
     ```
 
 1. Create superuser:
 
-    ``` console
+    ``` bash
     python manage.py createsuperuser
     ```
 
 1. Check it works by running the server and opening url: 127.0.0.1 (to use the default port 8000)
 
-    ``` console
+    ``` bash
     python manage.py runserver
     ```
 
     or if you want to use port 8100:
 
-    ``` console
+    ``` bash
     python manage.py runserver 8100
     ```
 

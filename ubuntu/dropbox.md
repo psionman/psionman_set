@@ -8,19 +8,19 @@ title: ""
 ### Dropbox
 
 1. In terminal
-  ```console
+  ```bash
   cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
   ~/.dropbox-dist/dropboxd
   ```
 
 1. Add Dropbox command to *Preferences/Startup Applications* in main Ubuntu menu:
-  ```console
+  ```bash
   /home/jeff/.dropbox-dist/dropboxd
   ```
   (Not sure this works)
 
  1. This does. in */etc/init.d/* create a file *dropbox* and populate with:
-    ```console
+    ```bash
     #!/bin/sh
     ### BEGIN INIT INFO
     # Provides:          dropbox

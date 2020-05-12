@@ -12,7 +12,7 @@ This document assumes that you have a Wagtail project up and running ([see Start
 
 1. Create a new app *users*
 
-    ```console
+    ```bash
     ./manage.py startapp users
     ```
 1. Update *base.py*
